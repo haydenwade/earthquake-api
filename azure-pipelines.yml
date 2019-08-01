@@ -20,6 +20,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'pocRegConnection'
-    repository:'test-earthquake'
+    repository: 'test-earthquake'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
